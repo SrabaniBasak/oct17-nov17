@@ -22,17 +22,19 @@ body {
     height: auto;
 }
 .menu-container {
-    width: 33.33%;
+    width: 36%;
     margin: auto;
+    font-family: "Arial Black", Gadget, sans-serif;
 }
 ul.menu-list {
     list-style: none;
     padding: 0;
+    overflow: hidden;
 }
 ul.menu-list li {
-    display: inline-block;
+    float: left;
     margin: 0 18px;
-    font-size: 16px;
+    font-size: 14px;
     color: #252525;
     font-weight: bold;
     text-transform: uppercase;
