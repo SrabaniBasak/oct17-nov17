@@ -7,29 +7,27 @@ body {
 }
 .banner-wrapper {
     background: url(../images/bg-home.jpg) no-repeat;
-    height: 600px;
+    height: 1500px;
 }
 .banner-wrapper header {
     width: 100%;
     background: rgba(000, 000, 000, 0.5);
 }
 .banner-wrapper .header-wrapper {
-    width: 75%;
+    width: 64%;
     margin: 0 auto;
-    display: table;
+    overflow: hidden;
 }
 .banner-wrapper .logo-wrapper {
     height: 100%;
-    display: table-cell;
-    vertical-align: middle;
+    float: left;
 }
 .banner-wrapper .logo-wrapper img {
     height: 100%;
 }
 .banner-wrapper .menu-wrapper {
     height: 100%;
-    display: table-cell;
-    vertical-align: middle;
+    float: right;
 }
 .banner-wrapper nav ul {
     list-style: none;
@@ -51,15 +49,31 @@ body {
 }
 .banner-wrapper section {
     position: relative;
-    width: 75%;
+    width: 63%;
     margin: 0 auto;
 }
 .satellite-image-wrapper {
     position: absolute;
-    top: 50px;
-    left: 50px;
+    width: 100%;
+    top: 45px;
+    display: table;
 }
 .satellite-image-wrapper img {
-    width: 100%;
+    width: 75%;
     height: 100%;
+}
+.satellite-image-wrapper img,
+.satellite-image-wrapper div {
+    display: table-cell;
+    vertical-align: middle;
+}
+.satellite-image-wrapper div h1 {
+    margin: 0;
+    color: #fff;
+}
+.satellite-image-wrapper div a {
+    text-decoration: none;
+    background: blue;
+    color: #fff;
+    padding: 15px;
 }
